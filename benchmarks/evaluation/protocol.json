@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "measurement_policy": "derive_from_evidence_linked_observations",
+  "project": "deepresearch",
+  "scope": {
+    "research_topics": 11,
+    "citation_units": 361,
+    "regression_instances": 322
+  },
+  "strata": {
+    "regression": {
+      "task_queue": 120,
+      "model_configuration": 90,
+      "knowledge_lifecycle": 112
+    }
+  },
+  "plan_rubric": [
+    "requirement_coverage",
+    "question_clarity",
+    "structure_quality"
+  ]
+}

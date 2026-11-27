@@ -149,3 +149,7 @@ uvicorn agent.app:app --host 127.0.0.1 --port 2024
 | [系统架构](docs/architecture.md) | 主图、子图、状态、来源、知识时效、队列与SSE |
 | [配置与运行](docs/setup.md) | 服务依赖、密钥、角色模型、登录、启动及故障定位 |
 | [开发与验证](docs/development.md) | 接口载荷、事件、代码阅读路径、验证矩阵和扩展点 |
+
+## 评测协议与结果汇总
+
+[评测模块](benchmarks/evaluation/README.md)定义分层测试范围、指标分母、证据记录和结果汇总命令。范围配置与实际结果分开保存，汇总报告同时输出覆盖检查及原始记录指纹。
